@@ -1,0 +1,15 @@
+[package]
+name = "Discord-Bot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sea-orm = { version = "1.1.19", features = [ "sqlx-sqlite", "runtime-tokio-rustls" ] }
+axum = "0.8.8"
+fluent = "0.17.0"
+poise = "0.6.1"
+tracing = "0.1.44"
+tracing-subscriber = "0.3.22"
+rustrict = "0.7.38"
+tokio = { version = "1.49.0", features = ["full"] }
+intl-memoizer = "0.5.3"

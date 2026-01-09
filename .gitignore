@@ -1,0 +1,11 @@
+/target
+db.sqlite
+
+# Direnv 
+.direnv
+.envrc
+
+# Nix
+result
+result-*
+.pre-commit-config.yaml
